@@ -1,0 +1,21 @@
+.add {
+  padding: 40px;
+  background-color: #F8F0FF; 
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input, textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: plum; 
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}

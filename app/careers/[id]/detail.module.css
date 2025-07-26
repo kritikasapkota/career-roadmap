@@ -1,0 +1,76 @@
+.container {
+  padding: 40px;
+  background: linear-gradient(180deg, #f8eaff, #ece7ff); 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.8rem;
+  color: indigo; 
+  margin-bottom: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.avatarWrapper {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+}
+
+.stepCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; 
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+  margin: 20px 0;
+  padding: 20px;
+  width: 100%;
+  max-width: 720px;
+  position: relative;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.stepCard:hover {
+  transform: scale(1.02);
+}
+
+.left {
+  flex-direction: row;
+}
+
+.right {
+  flex-direction: row-reverse;
+}
+
+.stepText {
+  margin: 0 20px;
+  flex: 1;
+}
+
+.arrow {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.notfound {
+  text-align: center;
+  font-size: 1.8rem;
+  color: red;
+  margin-top: 100px;
+}

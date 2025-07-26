@@ -1,0 +1,12 @@
+.home {
+  text-align: center;
+  padding: 40px;
+  background-color: #F8F4FF; 
+}
+.links a {
+  margin: 20px;
+  padding: 10px 20px;
+  background: #D8BFD8; 
+  color: #000;
+  border-radius: 8px;
+}
